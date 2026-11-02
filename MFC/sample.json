@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "family": "MFC",
+  "variants": [
+    {
+      "id": "mfc-x64",
+      "family": "MFC",
+      "target": "x64",
+      "outputType": 0,
+      "framework": "native-x64",
+      "application": "MfcApp",
+      "input": "MfcApp.exe",
+      "sourceProject": "MfcShowcase.vcxproj",
+      "v1": "MFC/x64/v1/Sample.loc",
+      "v2": "MFC/x64/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "MFC/x64/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "E44F3C661929B6E3D645D77575B0458E50A2837EFAEACC05DCE6F99083378558",
+      "v1InputSHA256": "4A8CC4AB9A054F9351BF0F6226B7D49E940698C4DFCC0964E34CCEB77CB8A06A",
+      "v2InputSHA256": "E3F9F01A4537F65DCD65BC4604D33BDB19CFACA55E23F3528288234756D2D08D",
+      "projectSHA256": "BB7F683A1EA63AD46F55C842F21AB618643F7399AE8D57F746F19101B6B06240"
+    },
+    {
+      "id": "mfc-resource-only",
+      "family": "MFC",
+      "target": "resource-only",
+      "outputType": 1,
+      "framework": "native-x64",
+      "application": "MfcApp",
+      "input": "MfcApp.exe",
+      "sourceProject": "MfcShowcase.vcxproj",
+      "v1": "MFC/resource-only/v1/Sample.loc",
+      "v2": "MFC/resource-only/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "MFC/resource-only/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "DE40349F8BB5131900FF9E7FAF3F9A096D8ED01E4AF639B49133D047A84AECE6",
+      "v1InputSHA256": "4A8CC4AB9A054F9351BF0F6226B7D49E940698C4DFCC0964E34CCEB77CB8A06A",
+      "v2InputSHA256": "E3F9F01A4537F65DCD65BC4604D33BDB19CFACA55E23F3528288234756D2D08D",
+      "projectSHA256": "526F5FE9347D08A6E76D701454B86509B0B011BD9D780AD91ED0E27D64927B72"
+    },
+    {
+      "id": "mfc-multilingual",
+      "family": "MFC",
+      "target": "multilingual",
+      "outputType": 2,
+      "framework": "native-x64",
+      "application": "MfcApp",
+      "input": "MfcApp.exe",
+      "sourceProject": "MfcShowcase.vcxproj",
+      "v1": "MFC/multilingual/v1/Sample.loc",
+      "v2": "MFC/multilingual/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "MFC/multilingual/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "86068018FF9A8BDFC9623ADC34AD3601F0CE590F5B5CF2055F6D47722F43428B",
+      "v1InputSHA256": "4A8CC4AB9A054F9351BF0F6226B7D49E940698C4DFCC0964E34CCEB77CB8A06A",
+      "v2InputSHA256": "E3F9F01A4537F65DCD65BC4604D33BDB19CFACA55E23F3528288234756D2D08D",
+      "projectSHA256": "CFEFF7C8C4B1B97FE31617BE6920281511C4AA6847B9C9A6CE42AA46D842F345"
+    }
+  ]
+}

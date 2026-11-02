@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="ExportSummaryFormat" xml:space="preserve">
+    <value>Export {0} selected pages to {1}.</value>
+  </data>
+  <data name="GuideTitle" xml:space="preserve">
+    <value>Export guide</value>
+  </data>
+  <data name="InvalidFormatMessage" xml:space="preserve">
+    <value>The translation contains an invalid format placeholder.</value>
+  </data>
+  <data name="NewPresetDescription" xml:space="preserve">
+    <value>Accessible document export</value>
+  </data>
+  <data name="ExportProfileSavedFormat" xml:space="preserve">
+    <value>The export profile "{0}" has now been saved successfully.</value>
+  </data>
+  <data name="SampleVersion" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StandardProfile" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+</root>

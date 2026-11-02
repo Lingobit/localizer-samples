@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="export.xsl"?>
+<export>
+<label id="complete">Open export guide</label>
+<label id="imported">Select output folder</label>
+<label id="review">Include document properties</label>
+<label id="inprocess">Number of copies</label>
+<label id="updated">Save profile</label>
+<label id="untranslated">Choose paper size</label>
+<label id="validation">Exported {0} pages to {1}.</label>
+<label id="profile_saved">The export profile has been saved successfully.</label>
+<label id="removed">Play a sound when complete</label>
+<presets>
+<preset id="office" copies="2"><name>Office printing</name><description>A compact document for everyday printing.</description><price currency="EUR">12.50</price><note>DO_NOT_TRANSLATE</note></preset>
+<preset id="web" copies="1"><name>Web publishing</name><description>Small images for online reading.</description><price currency="EUR">0.00</price><note>DO_NOT_TRANSLATE</note></preset>
+</presets></export>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="Prepare" template="Default">
+  <title id="Prepare.title" translate="true">Preparing a document</title>
+  <body>
+    <para id="Prepare.body" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Choose a readable file name.</text>
+    </para>
+    <para styleclass="Normal">
+      <link href="Export" id="Prepare.link" translate="true" type="topiclink" displaytype="text" defaultstyle="true" styleclass="Normal">Return to export settings</link>
+    </para>
+  </body>
+</topic>

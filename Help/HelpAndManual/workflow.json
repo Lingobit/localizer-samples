@@ -1,0 +1,61 @@
+{
+  "id": "Help_Manual_Project_Sample",
+  "family": "Help/HelpAndManual",
+  "language": 7,
+  "v1": "Help/HelpAndManual/v1/Sample.loc",
+  "v2": "Help/HelpAndManual/v2/Sample.loc",
+  "v2State": "v1-model-before-scan",
+  "projectSHA256": "37116CC9ECCE91D5AD6F7600D160AE124396F834AF628B20E3A01869AC185719",
+  "new": 6,
+  "updated": 1,
+  "fuzzy": 1,
+  "removedInOutput": true,
+  "validationError": false,
+  "roles": {
+    "removed": {
+      "resourceId": "@#text",
+      "status": 256,
+      "original": "Play a sound when complete"
+    },
+    "untranslated": {
+      "resourceId": "@#text",
+      "status": 0,
+      "original": "Choose paper size"
+    },
+    "profile_saved": {
+      "resourceId": "@#text",
+      "status": 256,
+      "original": "The export profile has been saved successfully."
+    },
+    "imported": {
+      "resourceId": "@#text",
+      "status": 256,
+      "original": "Select output folder"
+    },
+    "review": {
+      "resourceId": "@#text",
+      "status": 2,
+      "original": "Include document properties"
+    },
+    "validation": {
+      "resourceId": "@#text",
+      "status": 256,
+      "original": "Exported {0} pages to {1}."
+    },
+    "updated": {
+      "resourceId": "@#text",
+      "status": 256,
+      "original": "Save profile"
+    },
+    "inprocess": {
+      "resourceId": "@#text",
+      "status": 0,
+      "original": "Number of copies"
+    },
+    "complete": {
+      "resourceId": "@#text",
+      "status": 1,
+      "original": "Open export guide"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# Store every file byte for byte. Localizer projects (.loc) refer to their
+# input files, and line-ending conversion on checkout would make Scan for
+# Changes report differences that are not in the sample.
+* -text

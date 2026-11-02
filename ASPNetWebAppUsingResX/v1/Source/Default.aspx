@@ -1,0 +1,3 @@
+<%@ Page Language="C#" MasterPageFile="~/Main.Master" Culture="auto" UICulture="auto" %>
+<%@ Register TagPrefix="export" TagName="ProfileOptions" Src="~/ProfileOptions.ascx" %>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server"><h1><asp:Label ID="Heading" runat="server" meta:resourcekey="Heading" /></h1><asp:Label ID="DestinationLabel" runat="server" meta:resourcekey="DestinationLabel" /><asp:TextBox ID="Destination" runat="server" /><p><asp:Label ID="Guide" runat="server" Text="<%$ Resources:Resources, complete %>" /></p><export:ProfileOptions ID="Options" runat="server" /></asp:Content>

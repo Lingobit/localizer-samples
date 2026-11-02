@@ -1,0 +1,2 @@
+<%@ Master Language="C#" %>
+<!doctype html><html><head runat="server"><title>Export</title></head><body><form runat="server"><header><asp:Label ID="NavigationLabel" runat="server" meta:resourcekey="NavigationLabel" /></header><asp:ContentPlaceHolder ID="MainContent" runat="server" /></form></body></html>

@@ -1,0 +1,28 @@
+Qt 6.8.3
+Copyright (C) The Qt Company Ltd. and other contributors.
+
+Qt Core, Qt Gui, Qt Widgets, qwindows and qmodernwindowsstyle are dynamically
+linked, unmodified Qt libraries, distributed under the GNU Lesser General
+Public License version 3. The lrelease executable is distributed under the
+GNU General Public License version 3 with the Qt GPL exception version 1.0.
+
+The complete license texts accompany this notice:
+  LICENSE.LGPL-3.0-only.txt
+  LICENSE.GPL-3.0-only.txt
+  LICENSE.Qt-GPL-exception-1.0.txt
+
+Corresponding source for this Qt release, including third-party notices:
+  https://download.qt.io/archive/qt/6.8/6.8.3/single/qt-everywhere-src-6.8.3.tar.xz
+  https://github.com/qt/qtbase/tree/v6.8.3
+  https://github.com/qt/qttools/tree/v6.8.3/src/linguist
+
+The sample application source and CMakeLists.txt are in ../Source.
+To rebuild it with your own Qt libraries, use a Visual Studio C++ Developer
+Command Prompt with CMake and a compatible Qt 6 MSVC x64 kit:
+  cmake -S ../Source -B build -DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/msvc2022_64
+  cmake --build build --config Release
+
+You may replace the Qt DLLs and plugins with compatible modified builds.
+Reverse engineering for debugging modifications to these Qt libraries is
+permitted. The MIT license for the Lingobit sample does not replace the Qt
+licenses or restrict those rights.

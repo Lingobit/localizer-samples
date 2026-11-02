@@ -1,0 +1,48 @@
+<Window x:Class="WpfLocalization.MainWindow" x:Uid="MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:WpfLocalization" Title="WPF Localization Sample" Width="756" Height="458" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+ <DockPanel Background="#F7F8FA">
+  <Menu DockPanel.Dock="Top" Background="White">
+   <MenuItem x:Uid="FileMenu" Header="_File"><MenuItem x:Uid="PreviewMenu" Header="_Preview" Click="Preview"/><MenuItem x:Uid="ExportMenu" Header="_Export..." Click="Export"/><MenuItem x:Uid="SaveProfileMenu" Header="Save export _profile" Click="SaveProfile"/><Separator/><MenuItem x:Uid="CloseMenu" Header="E_xit" Click="CloseSample"/></MenuItem>
+   <MenuItem x:Name="LanguageMenu" x:Uid="LanguageMenu" Header="_Language" SubmenuOpened="RefreshLanguages"><MenuItem Header="English" Click="English"/><MenuItem Header="Deutsch" Click="German"/></MenuItem>
+   <MenuItem x:Uid="HelpMenu" Header="_Help"><MenuItem x:Uid="GuideMenu" Header="Export _guide" Click="ShowGuide"/></MenuItem>
+  </Menu>
+  <ToolBarTray DockPanel.Dock="Top" Background="#EDF1F6"><ToolBar><Button x:Uid="PreviewTool" Content="Preview" Click="Preview"/><Button x:Uid="ExportTool" Content="Export" Click="Export"/><Separator/><Button x:Uid="SaveProfileTool" Content="Save export profile" Click="SaveProfile"/></ToolBar></ToolBarTray>
+  <StatusBar DockPanel.Dock="Bottom"><TextBlock x:Uid="ReadyStatus" Text="Ready for preview"/><Separator/><TextBlock x:Uid="SampleStatus" Text="Localization sample"/></StatusBar>
+  <TabControl x:Name="MainTabs" Margin="12,8,12,10">
+   <TabItem x:Uid="PrintTab" Header="Print settings">
+    <Grid Margin="12"><Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="14"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+     <GroupBox x:Uid="PageSetupGroup" Header="Page setup" Grid.Row="0">
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="114"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Grid.RowDefinitions><RowDefinition Height="38"/><RowDefinition Height="38"/><RowDefinition Height="38"/><RowDefinition Height="38"/><RowDefinition Height="38"/></Grid.RowDefinitions>
+       <Label x:Uid="PaperLabel" Content="Paper size:" Style="{StaticResource FieldLabel}"/><ComboBox Grid.Column="1" SelectedIndex="0"><ComboBoxItem x:Uid="PaperPortrait" Content="A4 - Portrait"/><ComboBoxItem x:Uid="PaperLandscape" Content="A4 - Landscape"/><ComboBoxItem x:Uid="LetterPaper" Content="Letter - Portrait"/></ComboBox>
+       <Label x:Uid="CopiesLabel" Grid.Row="1" Content="Copies:" Style="{StaticResource FieldLabel}"/><TextBox x:Uid="CopiesValue" Grid.Row="1" Grid.Column="1" Text="2" Width="65" HorizontalAlignment="Left" Margin="0,5"/>
+       <Label x:Uid="OrientationLabel" Grid.Row="2" Content="Orientation:" Style="{StaticResource FieldLabel}"/><StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center"><RadioButton x:Uid="PortraitRadio" Content="Portrait" IsChecked="True" Margin="0,0,12,0"/><RadioButton x:Uid="LandscapeRadio" Content="Landscape"/></StackPanel>
+       <CheckBox x:Uid="DuplexCheck" Grid.Row="3" Grid.ColumnSpan="2" Content="Print on both sides" VerticalAlignment="Center"/>
+
+      </Grid>
+     </GroupBox>
+     <GroupBox x:Uid="OutputGroup" Grid.Column="2" Header="Output"><Grid><Grid.ColumnDefinitions><ColumnDefinition Width="90"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Grid.RowDefinitions><RowDefinition Height="38"/><RowDefinition Height="38"/><RowDefinition Height="38"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+      <Label x:Uid="QualityLabel" Content="Quality:" Style="{StaticResource FieldLabel}"/><ComboBox Grid.Column="1" SelectedIndex="1"><ComboBoxItem x:Uid="QualityDraft" Content="Draft"/><ComboBoxItem x:Uid="QualityStandard" Content="Standard"/><ComboBoxItem x:Uid="QualityHigh" Content="High quality"/></ComboBox>
+      <Label x:Uid="FormatLabel" Grid.Row="1" Content="Format:" Style="{StaticResource FieldLabel}"/><ComboBox Grid.Row="1" Grid.Column="1" SelectedIndex="0"><ComboBoxItem x:Uid="FormatPdf" Content="PDF document"/><ComboBoxItem x:Uid="FormatImage" Content="Image file"/></ComboBox>
+      <Label x:Uid="UnitsLabel" Grid.Row="2" Content="Units:" Style="{StaticResource FieldLabel}"/><ComboBox Grid.Row="2" Grid.Column="1" SelectedIndex="0"><ComboBoxItem x:Uid="UnitMillimeters" Content="Millimeters"/><ComboBoxItem x:Uid="UnitInches" Content="Inches"/></ComboBox>
+      <CheckBox x:Uid="IncludeProperties" Grid.Row="3" Grid.ColumnSpan="2" Content="Include document properties" VerticalAlignment="Top" Margin="0,14,0,0"><CheckBox.ToolTip><ToolTip><TextBlock x:Uid="PropertiesTip" Text="Include the title and author in the exported document." TextWrapping="Wrap" MaxWidth="260"/></ToolTip></CheckBox.ToolTip></CheckBox>
+     </Grid></GroupBox>
+     <Grid Grid.Row="1" Grid.ColumnSpan="3" Margin="0,16,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="12"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+      <Button x:Uid="GuideLink" Content="Read export guide" Click="ShowGuide" HorizontalAlignment="Left"/><Button x:Uid="SaveProfileButton" Grid.Column="1" Content="Save export profile" Click="SaveProfile"/><Button x:Uid="OptionsButton" Grid.Column="3" Content="Export options..." Click="Export"/>
+     </Grid>
+    </Grid>
+   </TabItem>
+   <TabItem x:Uid="ProfilesTab" Header="Profiles">
+    <Grid Margin="12"><Grid.ColumnDefinitions><ColumnDefinition Width="190"/><ColumnDefinition Width="14"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions><Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+     <TreeView><TreeViewItem x:Uid="GeneralNode" Header="General" IsExpanded="True"><TreeViewItem x:Uid="PageNode" Header="Page setup"/><TreeViewItem x:Uid="AppearanceNode" Header="Appearance"/></TreeViewItem><TreeViewItem x:Uid="OutputNode" Header="Output" IsExpanded="True"><TreeViewItem x:Uid="FormatsNode" Header="Export formats"/><TreeViewItem x:Uid="PropertiesNode" Header="Document properties"/></TreeViewItem><TreeViewItem x:Uid="NotificationsNode" Header="Notifications"/></TreeView>
+     <ListView x:Name="PresetsList" Grid.Column="2"><ListView.View><GridView><GridViewColumn x:Uid="PresetNameColumn" Header="Preset" DisplayMemberBinding="{Binding DisplayName}" Width="Auto"/><GridViewColumn x:Uid="PresetQualityColumn" Header="Quality" DisplayMemberBinding="{Binding Quality}" Width="100"/><GridViewColumn x:Uid="PresetFormatColumn" Header="Format" DisplayMemberBinding="{Binding Format}" Width="86"/></GridView></ListView.View>
+      <local:Preset x:Uid="StandardPdfPreset" DisplayName="Everyday sharing" Quality="Standard" Format="PDF"/><local:Preset x:Uid="PrintPdfPreset" DisplayName="Professional printing" Quality="High quality" Format="PDF"/><local:Preset x:Uid="ImagePreset" DisplayName="Lossless image export" Quality="High quality" Format="PNG"/><local:Preset x:Uid="AccessiblePreset" DisplayName="Accessible PDF" Quality="Standard" Format="PDF"/>
+     </ListView>
+     <GroupBox x:Uid="NotificationsGroup" Grid.Row="1" Grid.ColumnSpan="3" Header="Notifications" Margin="0,12,0,0"><WrapPanel><CheckBox x:Uid="EmailCheck" Content="E-mail" Margin="0,0,24,0"/><CheckBox x:Uid="PushCheck" Content="Push notifications" Margin="0,0,24,0"/><CheckBox x:Uid="DesktopCheck" Content="Desktop alerts"/></WrapPanel></GroupBox>
+    </Grid>
+   </TabItem>
+   <TabItem x:Uid="ResourcesTab" Header="Resources"><Grid Margin="12"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+    <TextBlock x:Uid="IntroText" Text="Explore how translation affects text, layout and resource updates." TextWrapping="Wrap"/>
+    <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto"><StackPanel Margin="0,16,0,0"><TextBlock x:Name="ResourceMessage" x:Uid="MessagePreview" Text="Export 12 pages to sample.pdf." TextWrapping="Wrap" Foreground="{StaticResource AccentBrush}" FontWeight="SemiBold"/><TextBlock x:Name="PresetDescription" x:Uid="XmlPreview" Text="Presets are loaded from the XML resource." TextWrapping="Wrap" Margin="0,6"/><TextBlock x:Name="GuideText" x:Uid="HtmlPreview" Text="A short guide is loaded from the HTML resource." TextWrapping="Wrap"/><Button x:Uid="ShowMessageButton" Content="Show sample message" Click="ShowMessage" HorizontalAlignment="Left" Margin="0,8,0,0"/><WrapPanel Margin="0,12,0,0"><Button x:Uid="OpenHtmlButton" Content="Open HTML guide" Click="OpenHtml" Margin="0,0,12,8"/><Button x:Uid="OpenXmlButton" Content="Open XML presets" Click="OpenXml" Margin="0,0,0,8"/></WrapPanel></StackPanel></ScrollViewer>
+   </Grid></TabItem>
+  </TabControl>
+ </DockPanel>
+</Window>

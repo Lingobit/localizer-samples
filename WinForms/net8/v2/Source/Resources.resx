@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="ExportSummaryFormat" xml:space="preserve">
+    <value>Export {0} pages to {1} using the {2} preset.</value>
+  </data>
+  <data name="ExportProfileSavedFormat" xml:space="preserve">
+    <value>The export profile "{0}" has now been saved successfully.</value>
+  </data>
+  <data name="FolderRequired" xml:space="preserve">
+    <value>Choose an output folder.</value>
+  </data>
+  <data name="ExportGuideTitle" xml:space="preserve">
+    <value>Export guide</value>
+  </data>
+  <data name="DefaultProfileName" xml:space="preserve">
+    <value>Everyday PDF</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="SampleBanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Assets\sample-banner.png;System.Drawing.Bitmap, System.Drawing.Common</value>
+  </data>
+  <data name="PostExportHint">
+    <value>The output folder opens after export.</value>
+  </data>
+</root>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presets><preset id="everyday-pdf"><name>Everyday PDF</name>
+<description>PDF preset for everyday sharing</description></preset>
+<preset id="print-pdf"><name>Print-ready PDF</name>
+<description>High quality with embedded fonts for professional printing</description></preset><preset id="web-image"><name>Web image</name>
+<description>PNG image for sharing on the web</description></preset></presets>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>complete</key>
+	<string>Open export guide</string>
+	<key>imported</key>
+	<string>Select output folder</string>
+	<key>review</key>
+	<string>Include document properties</string>
+	<key>inprocess</key>
+	<string>Number of copies</string>
+	<key>updated</key>
+	<string>Save profile</string>
+	<key>untranslated</key>
+	<string>Choose paper size</string>
+	<key>validation</key>
+	<string>Exported {0} pages to {1}.</string>
+	<key>profile_saved</key>
+	<string>The export profile has been saved successfully.</string>
+	<key>removed</key>
+	<string>Play a sound when complete</string>
+</dict>
+</plist>

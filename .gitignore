@@ -1,0 +1,20 @@
+# Files Localizer writes next to a project while you work with it
+*.backup
+*.loc_tm
+*.ltp
+*.ltp_tm
+
+# Localized files that Create Localized Files writes (German in these samples)
+de/
+de-DE/
+Localized/
+*DEU.dll
+*_de.*
+*.de.resx
+*.de-DE.resx
+
+# Build output if you rebuild a sample from Source
+.vs/
+bin/
+obj/
+*.user

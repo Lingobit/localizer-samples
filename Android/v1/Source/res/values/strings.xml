@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="complete">Open export guide</string>
+<string name="imported">Select output folder</string>
+<string name="review">Include document properties</string>
+<string name="inprocess">Number of copies</string>
+<string name="updated">Save profile</string>
+<string name="untranslated">Choose paper size</string>
+<string name="validation">Exported {0} pages to {1}.</string>
+<string name="profile_saved">The export profile has been saved successfully.</string>
+<string name="removed">Play a sound when complete</string>
+</resources>

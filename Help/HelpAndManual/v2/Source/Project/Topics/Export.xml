@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic template="Default">
+  <title translate="true">Export profile</title>
+  <body>
+    <para id="complete" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Open export guide</text>
+    </para>
+    <para id="imported" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Select output folder</text>
+    </para>
+    <para id="review" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Include document properties</text>
+    </para>
+    <para id="inprocess" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Number of copies</text>
+    </para>
+    <para id="updated" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Save export profile</text>
+    </para>
+    <para id="untranslated" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Choose paper size</text>
+    </para>
+    <para id="validation" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Exported {0} pages to {1}.</text>
+    </para>
+    <para id="export_profile_saved" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Your export profile has been saved successfully.</text>
+    </para>
+    <para id="added" styleclass="Normal">
+      <text styleclass="Normal" translate="true">Create accessible PDF</text>
+    </para>
+  </body>
+</topic>

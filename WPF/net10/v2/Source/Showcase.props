@@ -1,0 +1,29 @@
+<Project>
+  <PropertyGroup>
+    <ShowcaseVersion Condition="'$(ShowcaseVersion)'==''">2</ShowcaseVersion>
+    <ShowcaseSourceDir Condition="'$(ShowcaseSourceDir)'==''">$(MSBuildThisFileDirectory)</ShowcaseSourceDir>
+    <ShowcaseCulture Condition="'$(ShowcaseCulture)'==''">en-US</ShowcaseCulture>
+    <OutputType>WinExe</OutputType><UseWPF>true</UseWPF>
+    <StartupObject>WpfLocalization.SampleEntryPoint</StartupObject>
+    <AssemblyName>WpfLocalization</AssemblyName><RootNamespace>WpfLocalization</RootNamespace>
+    <LangVersion>latest</LangVersion><Nullable>disable</Nullable><ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems><EnableDefaultPageItems>false</EnableDefaultPageItems>
+    <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition><EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Version>$(ShowcaseVersion).0.0</Version>
+    <ShowcaseVersionDir>$(ShowcaseSourceDir)Versions\v$(ShowcaseVersion)\</ShowcaseVersionDir>
+    <ApplicationIcon>$(ShowcaseSourceDir)Assets\app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="SampleSourceCulture" Value="$(ShowcaseCulture)" />
+    <ApplicationDefinition Include="$(ShowcaseSourceDir)App.xaml" Link="App.xaml" />
+    <Page Include="$(ShowcaseSourceDir)Styles.xaml" Link="StylesDictionary.xaml" />
+    <Page Include="$(ShowcaseVersionDir)MainWindow.xaml" Link="MainWindow.xaml" />
+    <Page Include="$(ShowcaseVersionDir)ExportOptionsDialog.xaml" Link="ExportOptionsDialog.xaml" />
+    <Compile Include="$(MSBuildThisFileDirectory)*.cs" />
+    <EmbeddedResource Include="$(ShowcaseVersionDir)Resources.resx" LogicalName="WpfLocalization.Properties.Resources.resources" />
+    <EmbeddedResource Condition="Exists('$(ShowcaseVersionDir)Resources.de-DE.resx')" Include="$(ShowcaseVersionDir)Resources.de-DE.resx" LogicalName="WpfLocalization.Properties.Resources.de-DE.resources" />
+    <Resource Include="$(ShowcaseVersionDir)Content\$(ShowcaseCulture)\export-guide.html" Link="Content\export-guide.html" />
+    <Resource Include="$(ShowcaseVersionDir)Content\$(ShowcaseCulture)\export-presets.xml" Link="Content\export-presets.xml" />
+  </ItemGroup>
+</Project>

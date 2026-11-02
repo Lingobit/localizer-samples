@@ -1,0 +1,38 @@
+[
+  {
+    "id": 101,
+    "text": "Open export guide"
+  },
+  {
+    "id": 102,
+    "text": "Select output folder"
+  },
+  {
+    "id": 103,
+    "text": "Include document properties"
+  },
+  {
+    "id": 104,
+    "text": "Number of copies"
+  },
+  {
+    "id": 105,
+    "text": "Save export profile"
+  },
+  {
+    "id": 106,
+    "text": "Choose paper size"
+  },
+  {
+    "id": 107,
+    "text": "Exported {0} pages to {1}."
+  },
+  {
+    "id": 108,
+    "text": "The export profile has been saved successfully."
+  },
+  {
+    "id": 110,
+    "text": "Create accessible PDF"
+  }
+]

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="exportHeadingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="exportHeadingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="exportHeadingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="exportHeadingLabel.Text" xml:space="preserve">
+    <value>Prepare a document for export</value>
+  </data>
+  <data name="&gt;&gt;exportHeadingLabel.Name" xml:space="preserve">
+    <value>exportHeadingLabel</value>
+  </data>
+  <data name="&gt;&gt;exportHeadingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportHeadingLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exportHeadingLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="exportFormatLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 38</value>
+  </data>
+  <data name="exportFormatLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 25</value>
+  </data>
+  <data name="exportFormatLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="exportFormatLabel.Text" xml:space="preserve">
+    <value>Export format:</value>
+  </data>
+  <data name="&gt;&gt;exportFormatLabel.Name" xml:space="preserve">
+    <value>exportFormatLabel</value>
+  </data>
+  <data name="&gt;&gt;exportFormatLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportFormatLabel.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;exportFormatLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="exportFormatCombo.Items" xml:space="preserve">
+    <value>PDF document</value>
+  </data>
+  <data name="exportFormatCombo.Items1" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="exportFormatCombo.Items2" xml:space="preserve">
+    <value>Plain text</value>
+  </data>
+  <data name="exportFormatCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 33</value>
+  </data>
+  <data name="exportFormatCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 28</value>
+  </data>
+  <data name="exportFormatCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;exportFormatCombo.Name" xml:space="preserve">
+    <value>exportFormatCombo</value>
+  </data>
+  <data name="&gt;&gt;exportFormatCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportFormatCombo.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;exportFormatCombo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="folderLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 86</value>
+  </data>
+  <data name="folderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 25</value>
+  </data>
+  <data name="folderLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="folderLabel.Text" xml:space="preserve">
+    <value>Destination folder:</value>
+  </data>
+  <data name="&gt;&gt;folderLabel.Name" xml:space="preserve">
+    <value>folderLabel</value>
+  </data>
+  <data name="&gt;&gt;folderLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;folderLabel.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;folderLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="folderTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 81</value>
+  </data>
+  <data name="folderTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 27</value>
+  </data>
+  <data name="folderTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="folderTextBox.Text" xml:space="preserve">
+    <value>Sample output</value>
+  </data>
+  <metadata name="exportToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>242, 17</value>
+  </metadata>
+  <data name="folderTextBox.ToolTip" xml:space="preserve">
+    <value>Choose where the exported document will be saved.</value>
+  </data>
+  <data name="&gt;&gt;folderTextBox.Name" xml:space="preserve">
+    <value>folderTextBox</value>
+  </data>
+  <data name="&gt;&gt;folderTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;folderTextBox.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;folderTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="embedFontsCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 138</value>
+  </data>
+  <data name="embedFontsCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 30</value>
+  </data>
+  <data name="embedFontsCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="embedFontsCheck.Text" xml:space="preserve">
+    <value>Embed fonts in the document</value>
+  </data>
+  <data name="embedFontsCheck.ToolTip" xml:space="preserve">
+    <value>Keep the document readable on other computers.</value>
+  </data>
+  <data name="&gt;&gt;embedFontsCheck.Name" xml:space="preserve">
+    <value>embedFontsCheck</value>
+  </data>
+  <data name="&gt;&gt;embedFontsCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;embedFontsCheck.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;embedFontsCheck.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="preserveLinksCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 180</value>
+  </data>
+  <data name="preserveLinksCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 30</value>
+  </data>
+  <data name="preserveLinksCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="preserveLinksCheck.Text" xml:space="preserve">
+    <value>Preserve links and bookmarks</value>
+  </data>
+  <data name="&gt;&gt;preserveLinksCheck.Name" xml:space="preserve">
+    <value>preserveLinksCheck</value>
+  </data>
+  <data name="&gt;&gt;preserveLinksCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preserveLinksCheck.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;preserveLinksCheck.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="openFolderCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 220</value>
+  </data>
+  <data name="openFolderCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>715, 30</value>
+  </data>
+  <data name="openFolderCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="openFolderCheck.Text" xml:space="preserve">
+    <value>Open folder after export</value>
+  </data>
+  <data name="openFolderCheck.ToolTip" xml:space="preserve">
+    <value>Show the destination folder when the export is complete.</value>
+  </data>
+  <data name="&gt;&gt;openFolderCheck.Name" xml:space="preserve">
+    <value>openFolderCheck</value>
+  </data>
+  <data name="&gt;&gt;openFolderCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFolderCheck.Parent" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;openFolderCheck.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="exportSettingsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 60</value>
+  </data>
+  <data name="exportSettingsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 260</value>
+  </data>
+  <data name="exportSettingsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="exportSettingsGroup.Text" xml:space="preserve">
+    <value>Document options</value>
+  </data>
+  <data name="&gt;&gt;exportSettingsGroup.Name" xml:space="preserve">
+    <value>exportSettingsGroup</value>
+  </data>
+  <data name="&gt;&gt;exportSettingsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportSettingsGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exportSettingsGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="exportNoteLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 335</value>
+  </data>
+  <data name="exportNoteLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 35</value>
+  </data>
+  <data name="exportNoteLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="exportNoteLabel.Text" xml:space="preserve">
+    <value>Review the selected pages and destination before exporting.</value>
+  </data>
+  <data name="&gt;&gt;exportNoteLabel.Name" xml:space="preserve">
+    <value>exportNoteLabel</value>
+  </data>
+  <data name="&gt;&gt;exportNoteLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportNoteLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exportNoteLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="closeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 380</value>
+  </data>
+  <data name="closeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 38</value>
+  </data>
+  <data name="closeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Name" xml:space="preserve">
+    <value>closeButton</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;closeButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pageSetupButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 380</value>
+  </data>
+  <data name="pageSetupButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 38</value>
+  </data>
+  <data name="pageSetupButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pageSetupButton.Text" xml:space="preserve">
+    <value>&amp;Page setup</value>
+  </data>
+  <data name="&gt;&gt;pageSetupButton.Name" xml:space="preserve">
+    <value>pageSetupButton</value>
+  </data>
+  <data name="&gt;&gt;pageSetupButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageSetupButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pageSetupButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="exportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 380</value>
+  </data>
+  <data name="exportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 38</value>
+  </data>
+  <data name="exportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="exportButton.Text" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="&gt;&gt;exportButton.Name" xml:space="preserve">
+    <value>exportButton</value>
+  </data>
+  <data name="&gt;&gt;exportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;exportButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="exportErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>395, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Export options</value>
+  </data>
+  <data name="&gt;&gt;exportToolTip.Name" xml:space="preserve">
+    <value>exportToolTip</value>
+  </data>
+  <data name="&gt;&gt;exportToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportErrorProvider.Name" xml:space="preserve">
+    <value>exportErrorProvider</value>
+  </data>
+  <data name="&gt;&gt;exportErrorProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ExportOptionsDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

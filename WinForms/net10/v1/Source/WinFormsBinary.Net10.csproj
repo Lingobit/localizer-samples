@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType><UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>WinFormsBinary</AssemblyName><RootNamespace>WinFormsBinary.Net10</RootNamespace>
+    <Nullable>disable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <NeutralLanguage>en-US</NeutralLanguage><Version>1.0.0</Version>
+    <ApplicationIcon>Assets\app.ico</ApplicationIcon>
+    <DefaultItemExcludes>$(DefaultItemExcludes);bin\**;obj\**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\export-guide.html" LogicalName="Content.export-guide.html" />
+    <EmbeddedResource Include="Content\export-presets.xml" LogicalName="Content.export-presets.xml" />
+  </ItemGroup>
+</Project>

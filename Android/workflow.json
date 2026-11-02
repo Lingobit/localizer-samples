@@ -1,0 +1,61 @@
+{
+  "id": "Android",
+  "family": "Android",
+  "language": 7,
+  "v1": "Android/v1/Sample.loc",
+  "v2": "Android/v2/Sample.loc",
+  "v2State": "v1-model-before-scan",
+  "projectSHA256": "BE35DF58615DE8F93D261FBF7B716572A761350DA69E1A45CBB2021CBE678F29",
+  "new": 12,
+  "updated": 1,
+  "fuzzy": 1,
+  "removedInOutput": true,
+  "validationError": false,
+  "roles": {
+    "removed": {
+      "resourceId": "@string",
+      "status": 256,
+      "original": "Play a sound when complete"
+    },
+    "untranslated": {
+      "resourceId": "@string",
+      "status": 0,
+      "original": "Choose paper size"
+    },
+    "profile_saved": {
+      "resourceId": "@string",
+      "status": 256,
+      "original": "The export profile has been saved successfully."
+    },
+    "imported": {
+      "resourceId": "@string",
+      "status": 256,
+      "original": "Select output folder"
+    },
+    "review": {
+      "resourceId": "@string",
+      "status": 2,
+      "original": "Include document properties"
+    },
+    "validation": {
+      "resourceId": "@string",
+      "status": 256,
+      "original": "Exported {0} pages to {1}."
+    },
+    "updated": {
+      "resourceId": "@string",
+      "status": 256,
+      "original": "Save profile"
+    },
+    "inprocess": {
+      "resourceId": "@string",
+      "status": 0,
+      "original": "Number of copies"
+    },
+    "complete": {
+      "resourceId": "@string",
+      "status": 1,
+      "original": "Open export guide"
+    }
+  }
+}

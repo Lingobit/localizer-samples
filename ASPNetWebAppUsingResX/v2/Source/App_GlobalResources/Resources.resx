@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+<resheader name="version"><value>2.0</value></resheader>
+<resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+<resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+<data name="complete" xml:space="preserve"><value>Open export guide</value></data>
+<data name="imported" xml:space="preserve"><value>Select output folder</value></data>
+<data name="review" xml:space="preserve"><value>Include document properties</value></data>
+<data name="inprocess" xml:space="preserve"><value>Number of copies</value></data>
+<data name="updated" xml:space="preserve"><value>Save export profile</value></data>
+<data name="untranslated" xml:space="preserve"><value>Choose paper size</value></data>
+<data name="validation" xml:space="preserve"><value>Exported {0} pages to {1}.</value></data>
+<data name="export_profile_saved" xml:space="preserve"><value>Your export profile has been saved successfully.</value></data>
+<data name="added" xml:space="preserve"><value>Create accessible PDF</value></data>
+</root>

@@ -1,0 +1,13 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=export.chm
+Contents file=contents.hhc
+Index file=keywords.hhk
+Default topic=index.html
+Language=0x409 English (United States)
+Title=Export overview
+[FILES]
+index.html
+prepare.html
+troubleshooting.html
+document.png

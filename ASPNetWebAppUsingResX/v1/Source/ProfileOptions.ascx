@@ -1,0 +1,2 @@
+<%@ Control Language="C#" %>
+<fieldset><legend><asp:Label ID="OptionsLabel" runat="server" meta:resourcekey="OptionsLabel" /></legend><asp:Button ID="SaveButton" runat="server" meta:resourcekey="SaveButton" /></fieldset>

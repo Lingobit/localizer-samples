@@ -1,0 +1,9 @@
+<ResourceDictionary x:Uid="SampleStyles" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <SolidColorBrush x:Key="AccentBrush" Color="#2563A6" />
+  <Style TargetType="Window"><Setter Property="FontFamily" Value="Segoe UI"/><Setter Property="FontSize" Value="12"/><Setter Property="Background" Value="#F7F8FA"/></Style>
+  <Style TargetType="Button"><Setter Property="Padding" Value="12,5"/><Setter Property="MinHeight" Value="30"/></Style>
+  <Style TargetType="GroupBox"><Setter Property="Padding" Value="10"/><Setter Property="BorderBrush" Value="#C9CFD7"/></Style>
+  <Style TargetType="ComboBox"><Setter Property="MinHeight" Value="26"/><Setter Property="VerticalContentAlignment" Value="Center"/></Style>
+  <Style TargetType="TextBox"><Setter Property="MinHeight" Value="26"/><Setter Property="VerticalContentAlignment" Value="Center"/></Style>
+  <Style x:Key="FieldLabel" TargetType="Label"><Setter Property="Padding" Value="0,5,8,5"/><Setter Property="VerticalAlignment" Value="Center"/></Style>
+</ResourceDictionary>

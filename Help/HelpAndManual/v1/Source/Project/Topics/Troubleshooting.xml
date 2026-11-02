@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="Troubleshooting" template="Default">
+  <title id="Troubleshooting.title" translate="true">Troubleshooting exports</title>
+  <body>
+    <para id="Troubleshooting.body" styleclass="Normal">
+      <text styleclass="Normal" translate="true">If export fails, check the folder permissions.</text>
+    </para>
+    <para styleclass="Normal">
+      <link href="Prepare" id="Troubleshooting.link" translate="true" type="topiclink" displaytype="text" defaultstyle="true" styleclass="Normal">Return to export settings</link>
+    </para>
+  </body>
+</topic>

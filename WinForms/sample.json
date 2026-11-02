@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "family": "WinForms",
+  "variants": [
+    {
+      "id": "winforms-net8",
+      "family": "WinForms",
+      "target": "net8",
+      "outputType": 0,
+      "framework": "net8.0-windows",
+      "application": "WinFormsBinary",
+      "input": "WinFormsBinary.dll",
+      "sourceProject": "WinFormsBinary.Net8.csproj",
+      "v1": "WinForms/net8/v1/Sample.loc",
+      "v2": "WinForms/net8/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "WinForms/net8/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "29BE2D0A45DF036C84108E305B8AA314C53F3519850DC9E3BF9CF37CF28D6AD2",
+      "v1InputSHA256": "A3046893346EA5E83D862DA083D63B5A637F092CBE7917EC0A45D368A1D1098B",
+      "v2InputSHA256": "283CB57DCF8C46441D8308203F4FFA9E3105334C048437BF13B5AF1AE6FCAB67",
+      "projectSHA256": "DE3CD2060055017B6D48287626E9E080A9A5F5B258DEB9F1167D1C0874F90846"
+    },
+    {
+      "id": "winforms-net10",
+      "family": "WinForms",
+      "target": "net10",
+      "outputType": 0,
+      "framework": "net10.0-windows",
+      "application": "WinFormsBinary",
+      "input": "WinFormsBinary.dll",
+      "sourceProject": "WinFormsBinary.Net10.csproj",
+      "v1": "WinForms/net10/v1/Sample.loc",
+      "v2": "WinForms/net10/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "WinForms/net10/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "C7C0176FE368F1A27980B2DA2BEE62DF35BD7707E94ACED2F924720BBBEA7CA3",
+      "v1InputSHA256": "E3ECA473E3A9AF2BA9F8CCF243558B459C198D8D873D4FFA2D75ADF64D5778A2",
+      "v2InputSHA256": "E3505D2EC62DBBDA409C16CD760B8C2EDC80EC6E68B4A48E0536E20F883DD9C3",
+      "projectSHA256": "1958279A067B8DE1830F077F143132FC9E6D7711386B49373572AA6E07DE8A15"
+    }
+  ]
+}

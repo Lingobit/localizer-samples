@@ -1,0 +1,2 @@
+/* OpenStep / text property list */
+{ title = "Text property list settings"; preserve = "Keep the original document"; error = "The folder is not writable."; }

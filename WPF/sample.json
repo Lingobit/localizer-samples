@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "family": "WPF",
+  "variants": [
+    {
+      "id": "wpf-net8",
+      "family": "WPF",
+      "target": "net8",
+      "outputType": 0,
+      "framework": "net8.0-windows",
+      "application": "WpfLocalization",
+      "input": "WpfLocalization.dll",
+      "sourceProject": "WpfLocalization.net8.csproj",
+      "v1": "WPF/net8/v1/Sample.loc",
+      "v2": "WPF/net8/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "WPF/net8/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "20C15241ED7A6DB5223A532B6E5735149D107A9719D29424777C32BB861A370F",
+      "v1InputSHA256": "B55585759A8BCEC82851700B51240D2A8ECA7CFCD93522F10DCDB7354E556B74",
+      "v2InputSHA256": "6B32F8470D981C7E6F53ABAFD0CEB002600AF671C65B831C4C8EB5250EFDD132",
+      "projectSHA256": "ABEF8B131F6DAD1AB8354937E823D6952B1F0C78FE1731139135C99228D139BD"
+    },
+    {
+      "id": "wpf-net10",
+      "family": "WPF",
+      "target": "net10",
+      "outputType": 0,
+      "framework": "net10.0-windows",
+      "application": "WpfLocalization",
+      "input": "WpfLocalization.dll",
+      "sourceProject": "WpfLocalization.net10.csproj",
+      "v1": "WPF/net10/v1/Sample.loc",
+      "v2": "WPF/net10/v2/Sample.loc",
+      "v2State": "ready",
+      "beforeScan": "WPF/net10/v2/BeforeScan.loc",
+      "v2ProjectSHA256": "670355623DE9DD936C3CF144FC5096BB603BF6C22C78CC12F7AC77A1D7FA9967",
+      "v1InputSHA256": "F6512ABC876B5D88452D181AB72D0CD0175B6E24709C0AAA20E5139D611BE8A0",
+      "v2InputSHA256": "F1CCE7A59DB67DD4075E7BDB948F3BD42020BD55D2CCF2D9F05256BFEB14CA32",
+      "projectSHA256": "09603AB74594E3380E09F14F503F67B886ED7DB552FDB3A5D24028F8AD820457"
+    }
+  ]
+}
